@@ -18,7 +18,7 @@ _It will take input from user of places visited, add and save them to be visible
 | **LogBook.prototype.addPlace()** | "It should add place object to logbook object" | (logBook.addplace(pdx).toEqual(logBook = {pdx, etc, etc})) |
 | **LogBook.prototype.assignId();** | "It should assign an ID to objects added to logBook" | (logBook.addPlace(pdx).toEqual(Place: {...id: 1})); |
 | **LogBook.prototype.findPlace();** | "It should return 'This ID does not exist' if id != undefined." | (logBook.prototype.findPlace(5).toEqual('This ID does not exist'));
- |
+ 
  | **LogBook.prototype.findPlace()** | "It should return Place object based on its id." | (logBook.prototype.findPlace(1).toEqual(Place: {pdx})); |
  | **LogBook.prototype.visitPlace();** | "It should incement this.timesVisited by 1" | (logBook.visitPlace(1)).toEqual(Place {...timesVisited: +1}); |
  | **LogBook.prototype.addLandmark();** | "It should add landmark to landmark array." | (logBook.addLandmark(1, ("landmark"))).toEqual(Place {landmarks: ["blah", "blah", "landmark"]}) |
